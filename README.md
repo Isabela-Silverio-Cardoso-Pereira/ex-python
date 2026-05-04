@@ -51,3 +51,30 @@ print("MEDIA = %.5f" % MEDIA)
 print("PROD = %d" % PROD)
 
 #%d pra forçar que entre só decimal no % PROD 
+
+-------------------------------
+
+Leia três notas (A, B e C), calcule a média ponderada com pesos 2, 3 e 5, respectivamente, e exiba o resultado no formato: MEDIA = valor.
+
+A = float(input())
+B = float(input())
+C = float(input())
+
+MEDIA = (A * 2 + B * 3 + C * 5) / 10
+
+print("MEDIA = %.1f" % MEDIA)
+
+
+------------------------------
+Leia quatro valores inteiros (A, B, C e D), calcule a diferença entre os produtos (A × B − C × D) e imprima no formato: DIFERENCA = valor.
+'''
+Escreva a sua solução aqui
+Code your solution here
+Escriba su solución aquí
+'''
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+DIFERENCA = (A*B) - (C*D)
+print("DIFERENCA = %d" % DIFERENCA)
