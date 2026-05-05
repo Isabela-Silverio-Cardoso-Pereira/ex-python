@@ -78,3 +78,47 @@ C = int(input())
 D = int(input())
 DIFERENCA = (A*B) - (C*D)
 print("DIFERENCA = %d" % DIFERENCA)
+--------------------------
+
+Escreva um programa que leia o número de um funcionário, o número de horas trabalhadas no mês e o valor recebido por hora. Imprima o número do funcionário e o salário que ele receberá no final do mês, com duas casas decimais.
+Não se esqueça de imprimir a quebra de linha após o resultado, caso contrário, você receberá um erro de apresentação.
+Não se esqueça do espaço antes e depois do sinal de igual e depois do cifrão ($).
+Entrada
+O arquivo de entrada contém 2 números inteiros e 1 valor de ponto flutuante, representando o número, o número de horas trabalhadas e o valor que o funcionário recebe por hora trabalhada.
+Saída
+Imprima o número e o salário do funcionário, de acordo com o exemplo fornecido, com um espaço em branco antes e depois do sinal de igual.
+
+numero = int(input())
+horas_trabalhadas = int(input())
+valor_por_hora = float(input())
+salario = horas_trabalhadas*valor_por_hora
+print(f"NUMBER = {numero}")
+print(f"SALARY = U$ {salario:.2f}")
+
+---------------------------------------------
+
+Crie um programa que leia o nome de um vendedor, seu salário fixo e o total de vendas realizado por ele no mês (em dinheiro). Considerando que este vendedor recebe 15% sobre todos os produtos vendidos, escreva o salário final (total) deste vendedor no final do mês, com duas casas decimais.
+- Não se esqueça de imprimir o final da linha após o resultado, caso contrário, você receberá um erro de apresentação.
+- Não se esqueça dos espaços em branco.
+Entrada
+O arquivo de entrada contém um texto (primeiro nome do funcionário) e dois valores de dupla precisão, que são o salário do vendedor e o valor total das vendas realizadas por ele.
+Saída
+Imprima o salário total do vendedor, de acordo com o exemplo fornecido.
+
+# -*- coding: utf-8 -*-
+
+'''
+Escreva a sua solução aqui
+Code your solution here
+Escriba su solución aquí
+'''
+
+nome = input()
+salario_fixo = float(input())
+total_vendas = float(input())
+salario_final = salario_fixo + (total_vendas*0.15)
+print(f"TOTAL = R$ {salario_final:.2f}")
+
+
+
+
